@@ -53,7 +53,7 @@ app.post('/interactions', verifyKeyMiddleware(process.env.PUBLIC_KEY), async fun
       });
     }
 
-
+//
 
   if (type === InteractionType.MESSAGE_COMPONENT) {
     // custom_id set in payload when sending message component
